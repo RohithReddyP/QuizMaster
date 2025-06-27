@@ -210,12 +210,12 @@ class QuizUI:
         style_btn(btn2, "#17a2b8", "white", "#138496")
         btn2.pack(pady=8)
 
-        btn3 = tk.Button(frame, text="⬇️ Download Results", width=24,
+        btn3 = tk.Button(frame, text="💾 Download Results", width=24,
                          command=lambda: (self.play_sound("click"), self.download_results()))
         style_btn(btn3, "#ffc107", "#212529", "#e0a800")
         btn3.pack(pady=8)
 
-        btn4 = tk.Button(frame, text="🚪 Logout", width=24,
+        btn4 = tk.Button(frame, text="⏻ Logout", width=24,
                          command=lambda: (self.play_sound("click"), self.on_logout()))
         style_btn(btn4, "#dc3545", "white", "#c82333")
         btn4.pack(pady=16)
