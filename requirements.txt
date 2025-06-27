@@ -1,0 +1,4 @@
+pip install pygame
+pip install matplotlib
+pip install psycopg2
+pip install dotenv
